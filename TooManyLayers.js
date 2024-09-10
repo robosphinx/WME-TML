@@ -21,7 +21,7 @@
     const SCRIPT_VERSION = GM_info.script.version;
  
     function fancyLogMessage(tag, message) {
-        console.error("WME-TML: " + tag + ": " + message);
+        console.log("WME-TML: " + tag + ": " + message);
     }
  
     function embiggenTheList() {
